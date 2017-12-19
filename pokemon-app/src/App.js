@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 
 import './App.css';
-// import {
-//   BrowserRouter as Router,
-//   Route,
-//   Link
-// } from 'react-router-dom';
-// import Pokedex from './Pokedex';
+import { Router, Route, Switch } from 'react-router'
+
 
 const pokeStyle = {
   textTransform: 'uppercase',
